@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 380px;
+}
+h1 {
+    text-align: center;
+}
+.example1 {
+    border: 2px solid #000;
+    padding: 35px;
+    background: url(https://www.shutterstock.com/image-photo/ass-bee-white-flowers-cherry-260nw-1728633520.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+}
+.example2 {
+    border: 2px solid #000;
+    padding: 15px;
+    background: url(https://www.w3schools.com/css/img_flwr.gif);
+    background-repeat: no-repeat;
+    background-position: right bottom left top;
+    background-color: aquamarine;
+    margin: 10px;
+}
+.example3 {
+    border: 2px solid #000;
+    padding: 15px;
+    background: url(https://www.shutterstock.com/image-photo/ass-bee-white-flowers-cherry-260nw-1728633520.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+.example4 {
+    border: 2px dotted #000;
+    padding: 35px;
+    background: yellow;
+    background-repeat: no-repeat;
+  background-clip: padding-box;
+  margin: 10px;
+}
